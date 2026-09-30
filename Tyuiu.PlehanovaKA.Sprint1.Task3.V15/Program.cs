@@ -11,8 +11,8 @@ namespace Tyuiu.PlehanovaKA.Sprint1.Task3.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: создание итогового решения по спринту                             *");
-            Console.WriteLine("* Задание#2                                                               *");
-            Console.WriteLine("* Вариант#17                                                              *");
+            Console.WriteLine("* Задание#3                                                               *");
+            Console.WriteLine("* Вариант#15                                                              *");
             Console.WriteLine("* Выполнила: Плеханова Ксения Анатольевна | СМАРТб-26-1                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
