@@ -10,8 +10,8 @@ namespace Tyuiu.PlehanovaKA.Sprint1.Task3.V15.Test
             DataService ds = new DataService();
             double v1 = 1;
             double v2 = 2;
-            double s = 1;
-            double t = 3;
+            double S = 1;
+            double T = 3;
             double wait = 10;
             var res = ds.DistanceOverTime(v1, v2, S, T);
             Assert.AreEqual(wait, res);
