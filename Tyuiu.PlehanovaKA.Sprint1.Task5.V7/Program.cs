@@ -18,18 +18,18 @@ namespace Tyuiu.PlehanovaKA.Sprint1.Task5.V7
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Определить h – полное количество часов прошедших от начала суток        *");
             Console.WriteLine("* до того момента (в первой половине дня), когда часовая стрелка          *");
-            Console.WriteLine("* повернулась на f градусов (0<f<360, f – вещественное число).            *");
+            Console.WriteLine("* повернулась на f градусов.                                              *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             double f;
-            Console.WriteLine("Введите значение f");
+            Console.WriteLine("Введите значение f (0<f<360, f – вещественное число)");
             f = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.AngleToHoursMinutes(f));
+            Console.WriteLine("h = " + ds.AngleToHoursMinutes(f));
             Console.ReadLine();
         }
     }
