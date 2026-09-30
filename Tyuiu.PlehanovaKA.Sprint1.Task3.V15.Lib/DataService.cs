@@ -5,7 +5,7 @@ namespace Tyuiu.PlehanovaKA.Sprint1.Task3.V15.Lib
     {
         public double DistanceOverTime(double v1, double v2, double S, double T)
         {
-            return (v1 + v2) * T + S;
+            return Math.Round((v1 + v2) * T + S,3);
         }
     }
 }
